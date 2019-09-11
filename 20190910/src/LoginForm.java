@@ -53,8 +53,8 @@ public class LoginForm extends JFrame implements ActionListener{
 				rs = pstmt.executeQuery();
 				
 				if(rs.next()) {
-				System.out.println("id = "+rs.getString(1));
-				System.out.println("pw = "+rs.getString(2));
+//					System.out.println("id = "+rs.getString(1));
+//					System.out.println("pw = "+rs.getString(2));
 					setVisible(false);
 					new MainForm();	
 				}else {
